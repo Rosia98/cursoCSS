@@ -1,0 +1,17 @@
+:root{
+    --fondoGlobal:  #011212;
+    --anchoB: 100px;
+    --altoB: 100px;
+    --fondoB: #ff8800;
+    --bordeRadio: 50px;
+}
+body {
+    background-color: var(--fondoGlobal);
+}
+
+.ball {
+    width: var(--anchoB);
+    height: var(--altoB);
+    background-color: var(--fondoB) ;
+    border-radius: var(--bordeRadio);
+}

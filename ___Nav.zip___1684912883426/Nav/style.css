@@ -1,9 +1,0 @@
-.disabled{
-    cursor:not-allowed;
-    pointer-events: none;
-  }
-    
-.buscar:hover {
-        background-color: #0b5d0b;
-        color: #fff;
-    }

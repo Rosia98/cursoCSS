@@ -1,0 +1,46 @@
+
+:root{
+  --fondoNav:black;
+  --letraNav: white;
+  --letraEnlace: grey; 
+
+}
+nav{
+  background-color: black;
+  color: white;
+  padding: 7px;
+}
+.titulo{
+  font-size: 20px;
+}
+a{
+  color: var(--letraEnlace);
+  margin-left: 20px;
+  text-decoration: none;
+}
+.home{
+  color: var(--letraNav);
+}
+select{
+  background-color: var(--fondoNav);
+  color: var(--letraEnlace);
+  margin-left:20px ;
+}
+.disabled{
+    cursor:not-allowed;
+    pointer-events: none;
+  }
+  .der{
+    position: relative;
+    float: right;
+  }
+    
+.buscar{
+        border: 2px solid rgb(12, 105, 12);
+        background-color: var(--fondoNav);
+        color:  rgb(12, 105, 12);
+    }
+    input{
+      border-radius: 6px;
+
+    }

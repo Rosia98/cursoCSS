@@ -1,0 +1,101 @@
+.tarjetas{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+.tarjeta{
+    flex: 1;
+    max-width: calc(33.33% - 20px);
+    margin: 2%;
+    width: 33.33%;
+    border-radius: 10px;
+    background-image: linear-gradient(#b2b2b2,#ececec);
+    box-shadow:#b2b2b2 ;
+}
+@media (max-width: 768px) {
+    .tarjeta {
+      max-width: calc(50% - 20px); 
+    }
+  }
+  
+  @media (max-width: 375px) {
+    .tarjeta {
+      max-width: 100%; 
+    }
+  }
+.cabecera{
+    display: flex;
+    width: 100%;
+    height: 35px;
+    align-items: center;
+
+  
+}
+.circuloB{
+    width: 40px; 
+    height: 40px; 
+    background-color: #ececec; 
+    border-radius: 50%; 
+    margin-right: 10px;
+    margin-top: 10px;
+    margin-bottom: 3px;
+    margin-left: 5px;
+}
+
+.intro{
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+
+    
+}
+.intro p{
+    margin: 0;
+}
+.intro p:first-child{
+    margin-bottom: 0;
+    margin-left: 0;
+
+}
+.intro p:last-child{
+    color: white;
+    margin-top: 0;
+    font-size: 12px;
+    
+}
+.puntos{
+   display: flex;
+   flex-direction: column;
+   justify-content: flex-end;
+    height: 100%;
+    align-items: flex-end;
+    font-weight: bolder;
+    font-size: 35px;
+    margin-right: 10px;
+
+}
+.puntos p{
+    margin: 0;
+}
+
+.rana1{
+    margin-top: 3%;
+    width: 100%;
+}
+.iconos{
+    padding-left: 5%;
+    padding-top: 5% ;
+}
+.icono1{
+    width: 5%;
+}
+.icono2{
+    width: 5%;
+    margin-left: 5%;
+}
+.textaco{
+    margin-left: 8px;
+    margin-right: 8px;
+    padding-bottom: 20px;
+}

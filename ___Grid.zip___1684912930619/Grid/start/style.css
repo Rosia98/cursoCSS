@@ -1,0 +1,57 @@
+.calculadora{
+    border-radius: 4%;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    width: 250px;
+    font-size: 18px;
+    background-color: #f77077;
+    font-weight: 500;
+
+}
+.resultado{
+    border-top-right-radius: 6%;
+    border-top-left-radius: 6%;    
+    grid-column: 1 / span 4;
+    height: 30px;
+    text-align: right;
+    padding: 5px;
+    background-color: #424c52;
+    color: white;
+    
+    font-size: 24px;
+}
+.numero{
+    background: #f0f0f0;
+    border: 1px solid #899dad;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    grid-column: 1/ 3span;
+    text-align: center;
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-bottom: 10px;
+    padding-right: 10px;
+    background-color: #eff2f5;
+
+}
+.operacion{
+    grid-row: 2;
+    background-color: #d2dce3;
+    text-align: center;
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-bottom: 10px;
+    padding-right: 10px;
+    border: 1px solid #899dad;
+}
+.igual{
+    
+    grid-column: 4;
+    grid-row: 3/span 5;
+    background-color: #f77077;
+    justify-self: center;
+    align-self: center;
+
+}
+
